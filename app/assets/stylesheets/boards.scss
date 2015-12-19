@@ -1,0 +1,26 @@
+// Place all the styles related to the boards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#story-cards.slide-to-top {
+  margin-top: 25px;
+}
+#story-cards.for3 {
+  width: 960px;
+}
+#story-cards {
+  margin: 0 auto;
+  .story-card {
+    position: relative;
+    display: inline-block;
+    width: 230px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    .image .content .people {
+      width: 160px;
+      margin: 54px auto 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #333;
+    }
+  }
+}

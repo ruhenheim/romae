@@ -1,0 +1,19 @@
+// Place all the styles related to the tops controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+white-text {
+  color: #555;
+}
+
+#btnBoard, #btnEntry {
+  width: 200px;
+  height: 150px;
+  align-items: center;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
