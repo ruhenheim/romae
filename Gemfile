@@ -22,6 +22,7 @@ group :development do
   gem 'hub', :require=>nil
   gem 'quiet_assets'
   gem 'rails_layout'
+  gem 'heroku_san', '~> 4.3.2'
 end
 group :development, :test do
   gem 'pry-rails'
