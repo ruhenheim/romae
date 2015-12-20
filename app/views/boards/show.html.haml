@@ -1,6 +1,95 @@
-%p#notice= notice
-
-
-= link_to 'Edit', edit_board_path(@board)
-\|
-= link_to 'Back', boards_path
+.story-main.story-completed
+  .information
+    %span.published-on
+      2014.11.13
+  / %h3
+  / = @story.title
+  .content
+    / %p
+    / %table.combination
+    /   %tbody
+    /     %tr
+    /       %td.owner
+    /         %span.td-inner
+    /           .icon
+    /             %span.circle-icon-container
+    /               %img.circle-icon{:alt => "Ｏｉｓｉｘ", "data-disable" => "true", :height => "80", :src => "http://blabo-jp.s3.amazonaws.com/projects/oisix/logo-square.png", :width => "80"}/
+    /           .text
+    /             %h5
+    /               アイデア依頼主
+    /             %h4
+    /               Ｏｉｓｉｘ
+    /             %p
+    /               Ｏｉｓｉｘ 公式アカウント
+    /       %td.cross
+    /         %img{:alt => "Cross", :height => "34", :src => "//s3-ap-northeast-1.amazonaws.com/blabo-jp/stories/cross.png", :width => "34"}/
+    /       %td.planner
+    /         %span.td-inner
+    /           .icon
+    /             %span.circle-icon-container
+    /               %img.circle-icon{:alt => "まっきんことっしゅー", "data-disable" => "true", :height => "80", :src => "http://blabo-jp.s3.amazonaws.com/users/20140811081813-%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%81%8F%E3%81%A4.jpg", :width => "80"}/
+    /           .text
+    /             %h5
+    /               アイデア提供者
+    /             %h4
+    /               まっきんことっしゅー
+    /             %p
+    /               朝ランフリーク
+  .story-main-component
+    %h3.bubble
+      鉄道＋マラソン！「タイムトラベル」マラソンを一緒につくりあげましょう！！！
+    %p
+      希少な「タブレット閉塞機」鉄道の旅とマラソンが融合した「タイムトラベル」マラソンin 湯前町！！！
+    %p
+      湯前町まで走るくま川鉄道。この鉄道は、今では珍しい「タブレット閉塞機」を使った・・・・・
+    %p
+      〜〜〜〜〜〜（中略）〜〜〜〜〜〜〜
+    %p.last
+      そんなステキな町に、多くの町内外の方でこのイベントを成功させたいと思い、企画が誕生しました。企画実現までに以下のような出来事を考えたいと思います。
+    .owner.no-margin
+      .icon
+        %span.circle-icon-container
+          %img.circle-icon{:alt => "Ｏｉｓｉｘ", "data-disable" => "true", :height => "80", :src => "http://blabo-jp.s3.amazonaws.com/projects/oisix/logo-square.png", :width => "80"}/
+      .text
+        「Kit Oisix (きっとおいしっくす)」という20分で主菜も副菜も作れる材料とレシピの入ったキットを、より多くの方々に使ってもらえたらと思っています。みなさんに考えてもらいたいのはこんなキットがあったら思わず買いたくなるという夢のキット。共働きの夫婦や忙しいカップルなど、多くの皆さんのお悩みを解決できるようなキットを作れたらと願っていました。
+  .story-main-component
+    %h3.bubble
+      20分で2品つくれる！料理から片付けまでを1人で完璧に
+    %p
+      夫婦（カップル）の料理にまつわる「すれちがい」を解決するアイデアを集めたところ、120個を超えるアイデアが集まりました。Oisix企画会議に寄せられたアイデアの中で選ばれた料理キットとは、どんな内容だったのでしょう。
+    %p.last
+      寄せられたのは、料理をつくる際に夫婦（カップル）で起こりやすい、まさに「あるある！」とイメージできるシチュエーションを元にした「料理から後片付けまで夫ひとりで完璧にできるドヤ顔セット」というアイデア。
+    %p.image
+      %a{:href => "http://bla.bo/plans/44255"}
+        %img{:src => "http://blb2.sakura.ne.jp/stories/wp-content/uploads/2015/06/c9cad11ad7f6fe54d70a9d09f5a89d1f.png"}/
+    %p
+      感謝の思いを抱きながら心の葛藤も起きやすい家庭内でのすれちがい。そこを解決するにはどうしたらいい？というところに深く共感できるアイデアが寄せられました。
+    %p.last
+      主菜と副菜の2品が20分で完成する献立キットは、これまでは主に忙しい女性向けにメニュー開発を行ってきたOisix。今回、Blabo!で夫婦（カップル）のリアルな声を聞くことで、初めて男性が料理をつくるコンセプトで開発が実現しました。
+    %p.image.image-last
+      %img{:alt => "Oisix-cooking-kit-photo1", :src => "//s3-ap-northeast-1.amazonaws.com/blabo-jp/stories/oisix-cooking-kit-photo1.jpg"}/
+    .owner
+      .icon
+        %span.circle-icon-container
+          %img.circle-icon{:alt => "Ｏｉｓｉｘ", "data-disable" => "true", :height => "80", :src => "http://blabo-jp.s3.amazonaws.com/projects/oisix/logo-square.png", :width => "80"}/
+      .text
+        書いて頂いたシチュエーションにとても共感しました！男性はたまに作ってあげたいし、女性も作ってもらいたい。でも、男性の料理のあとには乱れた台所。そんなどこにでもある問題を解決できるとより夫婦間の関係も素敵になるのでは！と思い、選びました！他にも似たアイデアがあったのですが、シチュエーションまで書かれていたので、非常にイメージしやすかったです
+    %p
+      実現したアイデアは、大手食品ECサイトoisixで11月22日に期間限定で発売されることになりました。片付けのポイントも記された「いい夫婦の日」仕様のレシピカードも同封されています。サプライズ料理をつくって楽しい時間を夫婦やカップルで共にするのも素敵ですね。みなさんも、ぜひ大切な人と一緒の食事の時間をお楽しみください。
+  .story-main-component
+    .story-info
+      %h4
+        【このアイデアが生まれたお題はこちら】
+      %ul.link-to-boards
+        %li
+          %a{:href => "/boards/391", :target => "_blank"} 料理にまつわる「カップル/夫婦あるある」を募集します！そんな夫婦あるあるを解消するお料理キットって？
+      %p
+      %p
+  %p
+  .social-widgets
+    %span.like-button
+      .fb-like.fb_iframe_widget{"data-href" => "http://bla.bo/stories/8", "data-layout" => "button", "data-send" => "false", "data-show-faces" => "false", "data-width" => "60", "fb-iframe-plugin-query" => "app_id=&container_width=0&href=http%3A%2F%2Fbla.bo%2Fstories%2F8&layout=button&locale=ja_JP&sdk=joey&send=false&show_faces=false&width=60", "fb-xfbml-state" => "rendered"}
+        %span{:style => "vertical-align: bottom; width: 71px; height: 20px;"}
+          %iframe{:allowfullscreen => "true", :allowtransparency => "true", :frameborder => "0", :height => "1000px", :name => "f232898754", :scrolling => "no", :src => "http://www.facebook.com/v2.3/plugins/like.php?app_id=&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Dfd1c453f4%26domain%3Dbla.bo%26origin%3Dhttp%253A%252F%252Fbla.bo%252Ff33f8888e4%26relation%3Dparent.parent&container_width=0&href=http%3A%2F%2Fbla.bo%2Fstories%2F8&layout=button&locale=ja_JP&sdk=joey&send=false&show_faces=false&width=60", :style => "border: none; visibility: visible; width: 71px; height: 20px;", :title => "fb:like Facebook Social Plugin", :width => "60px"}
+    %span.tweet-button
+      %iframe#twitter-widget-0.twitter-share-button.twitter-share-button-rendered.twitter-tweet-button{:allowtransparency => "true", "data-url" => "http://bla.bo/stories/8", :frameborder => "0", :scrolling => "no", :src => "http://platform.twitter.com/widgets/tweet_button.c633b87376883931e7436b93bb46a699.en.html#_=1450541487297&dnt=false&hashtags=Blabo&id=twitter-widget-0&lang=en&original_referer=http%3A%2F%2Fbla.bo%2Fstories%2F565&size=m&text=Oisix%E3%81%A7%E7%99%BA%E5%A3%B2%E6%B1%BA%E5%AE%9A%EF%BC%81%E5%A4%AB%E5%A9%A6%E3%81%AE%E3%81%99%E3%82%8C%E9%81%95%E3%81%84%E3%82%92%E4%B8%80%E6%B0%97%E3%81%AB%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B%E6%96%99%E7%90%86%E3%82%AD%E3%83%83%E3%83%88%E3%80%8C%E3%81%84%E3%81%84%E5%A4%AB%E5%A9%A6%E3%81%AE%E6%97%A5%E3%81%AEKit%20Oisix%E3%80%8D%20-%20%E5%85%B1%E5%89%B5%E3%81%AEBlabo!%20(%E3%83%96%E3%83%A9%E3%83%9C)&type=share&url=http%3A%2F%2Fbla.bo%2Fstories%2F8&via=Blabo_Idea", :style => "position: static; visibility: visible; width: 62px; height: 20px;", :title => "Twitter Tweet Button"}
