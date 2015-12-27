@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+boards = Board.create(title: "投稿タイトルを入力する", content: "ここには投稿本文を入力する")
